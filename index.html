@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhiraj - Personal Portfolio</title>
+    <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assset/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--
+    - #MAIN
+  -->
+    <main>
+    
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+      
+              <figure class="avatar-box">
+                <img src="assset/images/my-avatar.png" alt="Dhiraj" width="80">
+              </figure>
+      
+              <div class="info-content">
+                <h1 class="name" title="Dhiraj">Dhiraj Kumar</h1>
+      
+                <p class="title">Computer science & Engineering Student</p>
+              </div>
+              
+              <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+      
+                <ion-icon name="chevron-down"></ion-icon>
+              </button>
+      
+            </div>
+      
+            <div class="sidebar-info_more">
+      
+              <div class="separator"></div>
+      
+              <ul class="contacts-list">
+      
+                <li class="contact-item">
+      
+                  <div class="icon-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+      
+                  <div class="contact-info">
+                    <p class="contact-title">Email</p>
+      
+                    <a href="mailto:rddhirajkumar@gmail.com.com" class="contact-link">rddhirajkumar@gmail.com</a>
+                  </div>
+      
+                </li>
+      
+                <li class="contact-item">
+      
+                  <div class="icon-box">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                  </div>
+      
+                  <div class="contact-info">
+                    <p class="contact-title">Phone</p>
+      
+                    <a href="tel:+91 7808925092" class="contact-link">(+91)7808925092</a>
+                  </div>
+      
+                </li>
+      
+                <li class="contact-item">
+      
+                  <div class="icon-box">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                  </div>
+      
+                  <div class="contact-info">
+                    <p class="contact-title">Birthday</p>
+      
+                    <time datetime="2005-08-24">August 24, 2005</time>
+                  </div>
+      
+                </li>
+      
+                <li class="contact-item">
+      
+                  <div class="icon-box">
+                    <ion-icon name="location-outline"></ion-icon>
+                  </div>
+      
+                  <div class="contact-info">
+                    <p class="contact-title">Location</p>
+      
+                    <address>Giridih, Jharkhand, India</address>
+                  </div>
+      
+                </li>
+      
+              </ul>
+      
+              <div class="separator"></div>
+      
+              <ul class="social-list">
+      
+                <li class="social-item">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+      
+                <li class="social-item">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+      
+                <li class="social-item">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+      
+              </ul>
+      
+            </div>
+      
+          </aside>
+
+        <!--
+      - #main-content
+    -->
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#about"><button class="navbar-link  active" onclick="opentab('about')">About</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#resume"><button class="navbar-link" onclick="opentab('resume')">Resume</button></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#project"><button class="navbar-link" onclick="opentab('project')">Project</button></a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+<!--
+        - #ABOUT
+      -->
+    <div class="container">
+    <div class="tab-containt active-tab" id="about">
+      <article class="about  active">
+
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a highly motivated and
+            result-driven  computer
+            Science & Engineering                                      
+            student Seeking a                                             
+            challenging  opportunity to              
+            leverage  my skills  
+          </p>
+        </section>
+
+
+         <!--
+          - Soft Skil
+        -->
+
+        <section class="service">
+
+            <h3 class="h3 service-title">Hobbies</h3>
+  
+            <ul class="service-list">
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="assset/images/icon-design.svg" alt="design icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Volleyball Playing</h4>
+  
+                  <p class="service-item-text">
+                    I’ve been playing volleyball since I was 12 and I absolutely love it.I’ve gotten better but I still need to learn and play more.
+                  </p>
+                </div>
+  
+              </li>
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="assset/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Movies Watching</h4>
+  
+                  <p class="service-item-text">
+                    I love watching movies,series etc… My favourite type is comedy,Love story and crime thriller.My favourite movie are Hridayam, 3 idiots.
+                  </p>
+                </div>
+  
+              </li>
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="assset/images/icon-app.svg" alt="mobile app icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Story reading</h4>
+  
+                  <p class="service-item-text">
+                    I love story reading. I also love novel reading.
+                  </p>
+                </div>
+  
+              </li>
+  
+            </ul>
+  
+          </section>
+        </article>
+    </div>
+
+        <!--
+        - #RESUME
+      -->
+<div class="tab-containt" id="resume">
+      <article class="resume ">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Central University of Jharkhand</h4>
+
+              <span>2023 — 2028</span>
+
+              <p class="timeline-text">
+                Integrated B.Tech. and M.Tech.in  
+                Computer science & Engineering 
+                (With Specialization in Machine    
+                learning and data science).      
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Model Public school</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Passed 12th (73 percentage) with the major
+                Physics,Chemistry and Maths
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dr Bhabha public school</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Passed 10th with 60 percentage
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java Script</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">c</h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Mysql</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+      </article>
+    </div>
+    <div class="tab-containt"  id="project">
+      <article class="project">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="service">
+
+            <!-- <h3 class="h3 service-title">Hobbies</h3> -->
+  
+            <ul class="service-list">
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="assset/images/1.jpg" alt="design icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Hospital Management System </h4>
+  
+                  <p class="service-item-text">
+                    In this project, I create a full Hospital Management System with Java (Swing), SQL, and AWT. 
+                    In this project, we can 
+                    Add patient, 
+                    View  patient, 
+                    View doctors, 
+                    Book Appointment, 
+                    Check Appointment.
+                  </p>
+                </div>
+  
+              </li>
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="assset/images/20.png" alt="Web development icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Car Rental System</h4>
+  
+                  <p class="service-item-text">
+                    In this project, I create a Car Rental System witj Java(OOPS).
+                    In this project, we can 
+                    Reat a car,
+                    Get confirmation Slip,
+                    Renturn Rented Car.
+                  </p>
+                </div>
+  
+              </li>
+  
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="assset/images/30.png" alt="mobile app icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Weather App</h4>
+  
+                  <p class="service-item-text">
+                    Weather App for Website using         
+                    HTML,CSS,JavaScript. We get the       
+                    current weather data from fess          
+                    API Key from openWeatherMap        
+                    and display the weather information
+                    like tempeature, weather condition,
+                    Humidity and wind Speed according
+                    to the city on our Website.    
+                  </p>
+                </div>
+  
+              </li>
+              <li class="service-item">
+  
+                <div class="service-icon-box">
+                  <img src="assset/images/50.jpg" alt="mobile app icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">spotify clone</h4>
+  
+                  <p class="service-item-text">
+                    spotify clone for Website using         
+                    HTML,CSS,JavaScript. 
+                </div>
+  
+              </li>
+  
+            </ul>
+  
+          </section>
+        </article>
+    </div>
+</div>
+</div>
+</main>
+
+    <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
